@@ -800,7 +800,12 @@ h3.buttons a:hover {
 }
 
 .post-bg-over {
-    background: rgba(0,0,0,0.3);
+    background: rgba(0,0,0,0.4);
+}
+
+section.forum {
+    font-weight: 700;
+    text-align: center;
 }
 
 /* Add a little circle in the middle of the border-bottom on our .post
@@ -1693,6 +1698,7 @@ body:not(.post-template) .site-footer {
 
     .post-excerpt p {
         font-size: 0.85em;
+        display: none;
     }
 
     .page-description {
@@ -1732,6 +1738,10 @@ body:not(.post-template) .site-footer {
 
     body:not(.post-template) .post-title {
         font-size: 2.5rem;
+    }
+
+    body:not(.post-template) .title-loop-text:after {
+        content: " →";
     }
 
     .post-template .post {
